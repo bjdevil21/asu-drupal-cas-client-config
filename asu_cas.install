@@ -98,7 +98,7 @@ function asu_cas_update_7000(&$sandbox) {
 function asu_cas_update_7001(&$sandbox) {
 
   // If they are running the old header
-  $newtheme = 'Innovation';
+  $newtheme = 'innovation';
   if(variable_get('theme_default')==$newtheme) {
     variable_set('asu_brand_header_version', '4.2');
   }
